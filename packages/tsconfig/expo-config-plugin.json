@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig.json",
+  "extends": ["./base.json"],
+  "compilerOptions": {
+    "outDir": "build",
+    "rootDir": "src",
+    "types": ["node", "jest"]
+  },
+  "include": ["./src"],
+  "exclude": ["**/__mocks__/*", "**/__tests__/*"]
+}

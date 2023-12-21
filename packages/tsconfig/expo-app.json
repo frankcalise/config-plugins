@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig.json",
+  "extends": ["./base", "expo/tsconfig.base"],
+  "compilerOptions": {
+    "moduleResolution": "NodeNext",
+    "jsx": "react-native",
+    "module": "Node16",
+    "isolatedModules": false,
+    "strict": true
+  }
+}

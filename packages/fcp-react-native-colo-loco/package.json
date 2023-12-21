@@ -1,0 +1,40 @@
+{
+  "name": "@fcp/react-native-colo-loco",
+  "version": "0.0.1",
+  "description": "Config plugin to auto configure react-native-colo-loco on prebuild",
+  "main": "build/withColoLoco.js",
+  "types": "build/withColoLoco.d.ts",
+  "sideEffects": false,
+  "license": "MIT",
+  "author": "Frank Calise (https://github.com/frankcalise)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frankcalise/config-plugins.git",
+    "directory": "packages/fcp-react-native-colo-loco"
+  },
+  "files": [
+    "build",
+    "app.plugin.js"
+  ],
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "test": "expo-module test",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module"
+  },
+  "keywords": [
+    "react-native",
+    "expo"
+  ],
+  "peerDependencies": {
+    "expo": "^49"
+  },
+  "devDependencies": {
+    "@fcp/tsconfig": "*",
+    "expo-module-scripts": "^3.0.3"
+  },
+  "upstreamPackage": "react-native-colo-loco"
+}
